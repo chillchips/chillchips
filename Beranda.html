@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--Bootstrap Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Chill Chips</title>
+</head>
+  <body id="home">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style= "background-color: rgb(214, 7, 7)">
+        <div class="container">
+          <a class="navbar-brand" href="#home">Chill Chips</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#pemesanan">Order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://wa.me/089506910692">Whatsapp <i class="bi bi-whatsapp"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Akhir Navbar-->
+
+      <!--JumboTron-->
+      <section class="jumbotron text-center">
+        <img src="img/Logo chillichips.jpg" alt="logo" width="200"
+        class="rounded-circle img-thumbnail">
+        <h1 class="display-4 text-white">Welcome To Chill Chips</h1>
+        <p class="lead text-white">Camilan Pedas Kripik Kaca </p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L40,138.7C80,117,160,75,240,96C320,117,400,203,480,202.7C560,203,640,117,720,85.3C800,53,880,75,960,96C1040,117,1120,139,1200,149.3C1280,160,1360,160,1400,160L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+      <!--Akhir Jumbotron-->
+    
+
+    <!--Pesan-->
+    <section id="pemesanan" >
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 class="fw-bold">ORDER HERE</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center"> 
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control mb-3" id="name" 
+                  aria-describedby="name">
+                </div>
+
+                <div class="mb-3">
+                  <label for="nohp" class="form-label">No Handphone / Whatsapp</label>
+                  <input type="number" class="form-control mb-3" id="nohp" aria-describedby="nohp">
+                </div>
+                  <div class="mb-3">
+                  <label for="alamat" class="form-label">Alamat Lengkap</label>
+                  <input type="text" class="form-control mb-3" id="alamat" aria-describedby="alamat">
+                </div>
+                <div class="mb-3">
+                  <label for="bayar" class="form-label mb-3">Mode Pembayaran</label>
+                  <select id="bayar" class="form-select">
+                    <option>-</option>
+                    <option>Cash</option>
+                    <option>Transfer</option>
+                  </select>
+                </div>
+                  <div id="norek" class="form-text mb-3">* Silahkan Kirim Bukti Transfer Jika Memilih Pembayaran Transfer * (BCA : 0070863634 a/n Dixy Fani Nurmansyah)</div>
+                  <div class="mb-3">
+                    <label for="buktitf" class="form-label">Silahkan Upload Bukti Transfer (Optional)</label>
+                    <input class="form-control" type="file" id="formFile">   
+                  </div>               
+                    <div id="emailHelp" class="form-text mb-3">*Jika Memilih Pembayaran Cash Langsung Submit</div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+              </form>
+            </div>
+        </div>
+      </div>  
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill=" rgb(214, 7, 7)" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,165.3C384,171,480,149,576,138.7C672,128,768,128,864,138.7C960,149,1056,171,1152,181.3C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    <!--Akhir Pesan-->
+
+    <!--footer-->
+      <footer class="text-white fw-bold text-center p-5 fs-1"style= "background-color: rgb(214, 7, 7)">
+        <p>SEMOGA SUKA YAAA!!</p>
+      </footer>
+    <!--Akhir Footer-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
